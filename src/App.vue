@@ -2,6 +2,7 @@
   <div id="app">
     <h1>hello docker</h1>
     <h1>hello pm2</h1>
+    <h2>ci + cd</h2>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
