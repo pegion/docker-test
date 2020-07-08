@@ -78,6 +78,10 @@ http
 
       console.log('deploy success');
       res.end('ok');
+    } else if (req.method === 'GET' && req.url === '/') {
+      res.writeHead(200, { 'Content-Type': 'text/plain' });
+      res.write('Hello World pm2');
+      res.end();
     }
   })
   .listen(3000, () => {
